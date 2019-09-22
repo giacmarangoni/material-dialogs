@@ -169,9 +169,9 @@ class DialogContentLayout(
     if (top != -1) {
       targetView.updatePadding(top = top)
     }
-    if (bottom != -1) {
-      targetView.updatePadding(bottom = bottom)
-    }
+//    if (bottom != -1) {
+//      targetView.updatePadding(bottom = bottom)
+//    }
   }
 
   override fun onMeasure(
